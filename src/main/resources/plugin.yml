@@ -1,0 +1,17 @@
+name: Vaults
+version: 1.2
+main: com.BreiwalkerSMP.Vaults.Vaults
+api-version: '1.21' # Oder deine genutzte Version (z.B. 1.20)
+author: Breiwalker
+description: A secure, per-player vault system with sharing features.
+
+commands:
+  vault:
+    description: Main command for the Vault system.
+    usage: /vault [share|unshare|view] [player]
+    aliases: [pv, chest]
+
+permissions:
+  vault.admin:
+    description: Allows viewing any player's vault.
+    default: op
